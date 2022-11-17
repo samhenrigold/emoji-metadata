@@ -1,5 +1,5 @@
-# emoji-metadata
-Metadata for each emoji.
+# Metadata for every emoji.
+
 ## Sample Entry
 ```json
 {
