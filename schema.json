@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "emoji": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "aliases": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "unicode_version": {
+          "type": "string"
+        },
+        "ios_version": {
+          "type": "string"
+        },
+        "bucket": {
+          "type": "string"
+        },
+        "related": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "rgb": {
+          "type": "array",
+          "items": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "integer"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        }
+      },
+      "required": [
+        "emoji",
+        "description",
+        "category",
+        "aliases",
+        "unicode_version",
+        "ios_version",
+        "bucket",
+        "related",
+        "rgb"
+      ]
+    }
+  ]
+}
