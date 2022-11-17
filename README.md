@@ -37,9 +37,9 @@ Metadata for each emoji.
 }
 ```
 ## Fields
-- `emoji`: Unsure what this field is used for. Will update when we get to the bottom of it.
-- `description`: Official Unicode name for emoji
-- `category`: Unicode block for emoji. Possible values:
+- `emoji`: (unsure what this field is used for)
+- `description`: Official Unicode name for the emoji
+- `category`: Unicode block for the emoji. Possible values:
   -  Smileys & Emotion
   -  People & Body
   -  Animals & Nature
@@ -59,7 +59,7 @@ Metadata for each emoji.
   -  neutral
   -  sad
   -  anxiety
-- `related`: Similar emoji
+- `related`: Emoji similar to this one
 - `rgb`: The average color of the emoji, split into an array of red, green, blue values (respectively).
 
 Data sourced and cherry-picked from:
